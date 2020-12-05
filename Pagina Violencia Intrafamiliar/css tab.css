@@ -1,0 +1,56 @@
+/* Código sacado de: https://github.com/WebDevSimplified/HTML-CSS-JS-Tabs */
+
+[data-tab-content] {
+  display: none;
+}
+
+.active[data-tab-content] {
+display: block;
+}
+
+.tabs {
+display: flex;
+align-items: center;
+list-style-type: none;
+margin: 0;
+padding: 0;
+background-color:  #3c2a44;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white; 
+text-align: center;
+height: 55px;
+width: 1200px;
+font-size: 12px;
+position: relative;
+left: -40px;
+}
+
+.tab {
+cursor: pointer;
+display: flex;
+align-items: center;
+padding: 10px;
+height: 55px;
+position: relative;
+left: 0px;
+}
+
+.tab.active {
+background-color: #B695C0;
+height: 55px;
+display: flex;
+align-items: center;
+}
+
+.tab:hover {
+background-color: #B57EDC;
+height: 55px;
+display: flex;
+align-items: center;
+}
+
+.tab-content {
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+}
